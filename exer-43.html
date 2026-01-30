@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exer-43</title>
+  </head>
+  <body>
+    <h1>Formulário adicionar campo de genero</h1>
+    <form>
+      <form action="/seu-script-de-destino" method="POST">
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome"
+          required
+        />
+
+        <label for="senha">Senha:</label>
+        <input
+          type="password"
+          id="senha"
+          name="senha"
+          placeholder="Digite sua senha"
+          required
+        />
+
+        <button type="submit">Enviar</button>
+        <p>Selecione seu gênero:</p>
+
+        <input type="radio" id="masculino" name="genero" value="masculino" />
+        <label for="masculino">Masculino</label><br />
+
+        <input type="radio" id="feminino" name="genero" value="feminino" />
+        <label for="feminino">Feminino</label><br />
+
+        
+      </form>
+    </form>
+  </body>
+</html>
