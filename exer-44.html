@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exer-43</title>
+    <title>Exer-44</title>
   </head>
   <body>
-    <h1>Formulário adicionar campo de genero</h1>
+    <h1>Formulário adiccione checkboxes</h1>
     <form>
       <form action="/seu-script-de-destino" method="POST">
         <label for="nome">Nome:</label>
@@ -35,9 +35,32 @@
 
         <input type="radio" id="feminino" name="genero" value="feminino" />
         <label for="feminino">Feminino</label><br />
-        
+        <p>Selecione seus interesses:</p>
 
-        
+        <div>
+          <input
+            type="checkbox"
+            id="esportes"
+            name="interesse"
+            value="esportes"
+          />
+          <label for="esportes">Esportes</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="musica" name="interesse" value="musica" />
+          <label for="musica">Música</label>
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="leitura"
+            name="interesse"
+            value="leitura"
+          />
+          <label for="leitura">Leitura</label>
+        </div>
       </form>
     </form>
   </body>
