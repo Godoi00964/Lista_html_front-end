@@ -5,34 +5,30 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow-x: hidden;
-}
+
+
 
 body {
-    width: 100%;
-    min-height: 100vh;
-    overflow-x: hidden;
-    background: linear-gradient(to right, rgb(255, 255, 255), rgb(254, 215, 173));
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
+    background: rgb(254, 215, 173);
+
 }
 
 nav {
     width: 100%;
-    height: 10vh;
-    position: sticky;
+    position: static;
     top: 0;
+    margin: 10px;
     z-index: 20;
 }
 
 
 .nav-container {
-    width: 100%;
-    height: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
@@ -50,6 +46,7 @@ nav {
     display: flex;
     gap: 2rem;
     align-items: center;
+    list-style: none;
 }
 
 .nav-container .menu a {
@@ -76,68 +73,12 @@ nav {
     width: 100%;
 }
 
-.nav-container .contact-btn {
-    background-color: transparent;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: 2px solid rgb(109, 67, 0);
-    transition: 0.2s linear;
-}
-
-.nav-container .contact-btn a {
-    color: rgb(109, 67, 0);
-    transition: 0.3s linear;
-}
-
-.nav-container .contact-btn:hover,
-.nav-container .contact-btn:hover a {
-    background-color: rgb(109, 67, 0);
-    color: white;
-}
-
-.nav-container .menu a:hover {
-    color: rgb(109, 67, 0);
-}
-
-/* Ajustes e layout principal */
-.nav-container {
-    padding: 0 1rem;
-}
-.menu {
-    list-style: none;
-}
-.menu li { list-style: none; }
-
-.logo { margin-left: 0.25rem; }
-
 .container {
-    width: min(1100px, 95%);
-    margin: 2rem auto;
-    display: grid;
-    grid-template-columns: 1fr 320px;
-    gap: 2rem;
-    align-items: start;
+ 
+  border-radius: 0.5em;
+  padding: 20px;
+ 
+
+  column-width: 10em;
+  column-rule: 1px solid rgb(75 70 74);
 }
-
-main article {
-    background: rgba(255,255,255,0.9);
-    padding: 1.4rem;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-}
-
-main article header h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
-main article header p { color: #666; margin-bottom: 0.8rem; font-size: 0.95rem; }
-
-main article img { width: 100%; height: auto; border-radius: 8px; margin: 0.8rem 0; object-fit: cover; }
-
-main article p { line-height: 1.7; color: #333; }
-
-.comment { background: #fff; padding: 0.9rem; border-radius: 8px; margin-bottom: 0.8rem; box-shadow: 0 4px 10px rgba(0,0,0,0.04); }
-
-aside { background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.04); }
-aside h3 { margin-top: 0; }
-aside ul { padding-left: 1rem; }
-
-footer { text-align: center; padding: 1.2rem 0; margin-top: 2rem; color: #333; }
-
