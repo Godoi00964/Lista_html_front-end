@@ -1,141 +1,4 @@
-Pular para o conteúdo principal
-Google Sala de Aula
-Sala de Aula
-Front-End
-Início
-Agenda
-Minhas inscrições
-Pendentes
-F
-Front-End
-Turmas arquivadas
-Configurações
-Mural
-Atividades
-Pessoas
-Front-End
-Próximas atividades
-Data de entrega: sexta-feira
-Implementado o CSS
 
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 14:2614:26 (editado: 16:25)
-código:
-informativo.html
-HTML
-
-style_informativo.css
-CSS
-
-
-Postada por Caio Velten
-Caio Velten
-Criado em: OntemOntem
-https://github.com/Velten1/game-refactor
-Atividade: "Implementado o CSS"
-Natália Lima De Oliveira postou uma nova atividade: Implementado o CSS
-Criado em: 30 de jan.30 de jan.
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 30 de jan.30 de jan.
-Referência de Seletores: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Reference/Selectors
-Referência de Atributos CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 30 de jan.30 de jan. (editado: 30 de jan.)
-Segue o código fonte de referência da aula de hoje:
-interface.html
-HTML
-
-styles.css
-CSS
-
-
-Postada por Yascara Waiedly
-Yascara Waiedly
-Criado em: 29 de jan.29 de jan.
-https://github.com/Yaswaiedly/Estudos_HTML_Front-End
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 29 de jan.29 de jan. (editado: 29 de jan.)
-Referência de Instalação do GIT no windows: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
-repositório de teste: https://github.com/alimadeoliveiranatalia/agenda_pediatrica_code_wise.git
-Referência de Comandos GIT: https://git-scm.com/cheat-sheet
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 28 de jan.28 de jan. (editado: 28 de jan.)
-Glossário Referência sobre semântica no HTML: https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics
-Link para a inscrição na plataforma do GITHUB:https://github.com/
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 28 de jan.28 de jan.
-Questão 22: <!-- Crie um link de âncora que leve o
- usuário para o Rodapé da página-->
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Link Ancora</title>
-</head>
-<body>
-    <main>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="http://">Inicio</a></li>
-                    <li><a href="#rodape">Rodapé</a></li>
-                    <li><a href="http://">Nossa Localização</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <h1>Primeira Sessão</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat numquam, omnis maxime exercitationem eaque quis reprehenderit. Debitis quae, esse nam possimus voluptatem atque doloremque? Deleniti sequi iure omnis distinctio.</p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sint laborum cum facere aperiam, consequatur nulla ullam ipsa, a quidem eos ea. At, dolores! Facilis sit tempore natus doloribus reiciendis!
-            </p>
-        </section>
-        <section>
-            <h1>Segunda Sessão</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto commodi nam magnam blanditiis magni, atque alias vitae deleniti. Mollitia inventore nam voluptatum distinctio saepe maiores sint, vero quasi delectus illo.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestiae tempora eveniet consectetur corporis natus eos quo, officiis dolor harum debitis! Id incidunt, consequuntur voluptatibus ipsam doloremque voluptatem eveniet obcaecati.</p>
-        </section>
-        <footer id="rodape">
-            <p>Todos os direitos reservados</p>
-        </footer>
-    </main>
-</body>
-</html>
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 27 de jan.27 de jan.
-Desafio, estruture o código:
-game.html
-HTML
-
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 27 de jan.27 de jan. (editado: 27 de jan.)
-Segue nosso material explorado hoje: https://docs.google.com/presentation/d/1DDlWg0NlaX59dCQ50w6v0eW81f8o6leF/edit?usp=drive_link&ouid=108277889112135175376&rtpof=true&sd=true
-Referência de Tags do HTML documentação do Morzilla: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
-Atividade: "Treinando HTML"
-Natália Lima De Oliveira postou uma nova atividade: Treinando HTML
-Criado em: 27 de jan.27 de jan.
-
-Postada por Natália Lima De Oliveira
-Natália Lima De Oliveira
-Criado em: 27 de jan.27 de jan.
-Saudações Pessoal 🤗. Bem vindos ao nosso espaço de sala de aula, aqui serão postados nossas atividades, materiais explorados em sala de aula.
-Mural
 * {
     margin: 0;
     padding: 0;
@@ -236,7 +99,7 @@ header h1 {
 .btn.active-grid {
     background: var(--bg-card);
     color: var(--secondary);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .demo-container {
@@ -254,8 +117,14 @@ header h1 {
     justify-content: center;
 }
 .mode-flex .gallery-item {
+    flex: 1 1 250px;
+    max-width: 400px;
+       
+}
+.mode-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 .gallery-item {
     background: var(--bg-card);
